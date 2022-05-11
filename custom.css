@@ -1,0 +1,21 @@
+.bg-1 {
+    width: 80rem;
+    height: 25rem;
+    background: url('/assets/img/flower-bg.jpg');
+    background-size: cover;
+    margin-right: 3rem;
+}
+
+.flower-1 {
+    @media screen only(max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.bg-1 {
+    flex: 1;
+}
+
+.text-1 {
+    flex: 1;
+}
